@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\HH_Dangjian\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\HH_Dangjian\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\HH_Dangjian\\library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\HH_Dangjian\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\HH_Dangjian\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\HH_Dangjian\\library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "E:\\HH_Dangjian\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "E:\\HH_Dangjian\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\HH_Dangjian\\library\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    }
+]

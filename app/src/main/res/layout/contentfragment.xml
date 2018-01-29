@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.mycompany.hh_dangjian.view.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:drawableTop="@drawable/rb_home_drawable_selector"
+            android:gravity="center"
+            android:text="要闻"
+            style="@style/bottom_tag_horizontal_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_study"
+            android:drawableTop="@drawable/rb_study_drawable_selector"
+            android:gravity="center"
+            android:text="学习"
+            style="@style/bottom_tag_horizontal_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:drawableTop="@drawable/rb_news_drawable_selector"
+            android:gravity="center"
+            android:text="新闻"
+            style="@style/bottom_tag_horizontal_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:drawableTop="@drawable/rb_me_drawable_selector"
+            android:gravity="center"
+            android:text="我的"
+            style="@style/bottom_tag_horizontal_style"
+            />
+    </RadioGroup>
+
+</LinearLayout>

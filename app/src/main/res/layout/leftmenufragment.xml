@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_black"
+        >
+        <TextView
+            android:id="@+id/tv_date_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="@color/colorRed"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_date_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018年1月  星期三"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg_leftmenu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:paddingBottom="40dp"
+            android:paddingTop="40dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_knowledge"
+                android:drawableLeft="@drawable/menu_item_knowledge"
+                android:text="党务"
+                style="@style/bottom_tag_vertical_style"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_subject"
+                android:drawableLeft="@drawable/menu_item_subject"
+                android:text="专题"
+                style="@style/bottom_tag_vertical_style"
+                />
+
+
+
+
+            <RadioButton
+                android:id="@+id/rb_vedio"
+                android:drawableLeft="@drawable/menu_item_vedio"
+                android:text="视频"
+                style="@style/bottom_tag_vertical_style"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
